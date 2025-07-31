@@ -10,9 +10,14 @@ To run this repository locally, run this:
 # Make sure you have Yarn installed:
 yarn install
 
-# Start development Preview mode
+# Start development Preview mode:
 yarn dev
-# or if you prefer npm
+
+
+# or if you prefer npm, make sure you have it installed:
+npm i
+
+#then run:
 npm run dev
 ```
 
