@@ -2,10 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # SportRadar FE Coding Challenge by Thanathon
 
-## Live Preview
-
-The deployed Live Preview via GitHub Pages is available here:
-https://pikarioh.github.io/sportradar-coding-challenge
+## How to run
 
 To run this repository locally, run this:
 
@@ -26,6 +23,6 @@ Finally, navigate to [http://localhost:3000](http://localhost:3000) with your br
 This project is utilising following technologies:
 
 - NextJS (based on React TypeScript)
+- NextJS API
 - Tailwind CSS v4
-- ESLint
 - Jotai (State Management)
