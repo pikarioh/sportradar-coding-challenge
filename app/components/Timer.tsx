@@ -38,7 +38,7 @@ function Timer({ startMatch, finishMatch }: TimerProps) {
           )}
         </div>
         <button
-          id="finish_restart_button"
+          data-testid="finish_restart_button"
           onClick={match?.status === "in_progress" ? finishMatch : startMatch}
           className={`cursor-pointer rounded-full bg-orange-400 px-6 py-2 text-xl font-bold transition-all duration-150 ease-initial hover:scale-105 hover:bg-orange-300 active:scale-100 ${match?.status !== "scheduled" ? "translate-x-0" : "-translate-x-24"}`}
         >
@@ -50,7 +50,7 @@ function Timer({ startMatch, finishMatch }: TimerProps) {
         className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ease-out ${match?.status === "scheduled" ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`}
       >
         <button
-          id="start_match_button"
+          data-testid="start_match_button"
           onClick={startMatch}
           className={`cursor-pointer rounded-full bg-orange-400 px-6 py-2 text-xl font-bold transition-all duration-150 ease-initial hover:scale-105 hover:bg-orange-300 active:scale-100 ${match?.status === "scheduled" ? "translate-x-0" : "translate-x-24"}`}
         >

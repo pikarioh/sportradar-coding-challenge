@@ -66,7 +66,7 @@ function ScoreBoard() {
           </span>
 
           <span
-            id="total_score_display"
+            data-testid="total_score_display"
             className={`text-xs transition-opacity duration-300 ease-out`}
           >
             {match?.status === "scheduled" &&
