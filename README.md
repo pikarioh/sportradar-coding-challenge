@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # SportRadar FE Coding Challenge by Thanathon
 
+![Scoreboard Preview](/public/preview.png)
+
 ## How to run
 
 To run this repository locally, run this:
