@@ -4,6 +4,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ![Scoreboard Preview](/public/preview.png)
 
+## How it works?
+
+- The application retrieves matchup datas from the API
+- When pres START, the API assigns match-time (defaults at 90 seconds)
+- A random score is generated every 10 seconds while the match is in progress
+- You can skip the waiting, end the match and generate scores for the remaining time
+
 ## How to run
 
 To run this repository locally, run this:
